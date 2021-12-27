@@ -58,7 +58,7 @@ function draw() {
     {
       x = Math.floor(Math.random()*700);
       y = Math.floor(Math.random()*400);
-      Image(apple,x,y,50,50)
+      image(apple,x,y,50,50)
     }
     document.getElementById("status").innerHTML = to_number + " Apples drawn";
     speak_data = to_number+ "apples drewn";
